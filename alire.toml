@@ -1,0 +1,9 @@
+name = "echo"
+description = "echo executable in ada"
+version = "0.1.0"
+
+authors = ["Tidian DELAGE"]
+maintainers = ["Tidian DELAGE <tidian.delage@protonmail.ch>"]
+maintainers-logins = ["PalsFreniers"]
+
+executables = ["echo"]
