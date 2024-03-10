@@ -1,4 +1,4 @@
-with "config/echo_config.gpr";
+with "config/echada_config.gpr";
 project Echo is
 
    for Source_Dirs use ("src/", "config/");
