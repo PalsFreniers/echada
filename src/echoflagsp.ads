@@ -5,6 +5,9 @@ package echoflagsp is
         end record;
 
         function setFlags(self: in out echoFlags; arg: String) return Boolean;
-        type args is access function(Number: Positive) return String;
-        procedure printFrom(self: echoFlags; index: Integer; argv: args; len: Positive);
+        procedure printStrEscape(arg: String);
+        procedure printHelp(name: String);
+        procedure printVersion;
+private
+        procedure printEscape(c: Character);
 end echoflagsp;
